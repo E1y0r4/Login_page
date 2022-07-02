@@ -36,10 +36,16 @@ const Button =styled.button`
     font-size: 20px;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    :active{
+    :hover{
+        color: #036ffc;
+        background: #b3bfe5;
+        box-shadow: 0px 20px 30px rgba(13, 38, 59, 0.05);
+        transition: all 0.6s;
+    }
+    /* :active{
         transform: scale(0.98);
         opacity: 0.7;
-    }
+    } */
     `
  
 
