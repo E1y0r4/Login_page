@@ -42,10 +42,6 @@ const Button =styled.button`
         box-shadow: 0px 20px 30px rgba(13, 38, 59, 0.05);
         transition: all 0.6s;
     }
-    /* :active{
-        transform: scale(0.98);
-        opacity: 0.7;
-    } */
     `
  
 
